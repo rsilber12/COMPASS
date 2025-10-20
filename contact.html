@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compass Health Services</title>
+    <link rel="icon" href="images/favicon.svg" type="image/png"/>
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responisve.css" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div class="overflow-hidden">
+        <div class="header-top">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="" class="img-fluid logo1" /></a>
+
+                    <!-- <div class="order-lg-1 ms-lg-3">
+                        <a href="#" class="btn btn1 text-nowrap">123-456-7890</a>
+                    </div> -->
+                    <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="padding">
+            <div class="container">
+                <div class="banner-box">
+                    <div class="contactnow-box" data-aos="fade-up" data-aos-delay="100">
+                        <div class="p-lg-5">
+                            <div class="row g-5">
+                                <div class="col-lg-6 col-12 pe-lg-5">
+                                    <h1 class="display-3 lh-1 mb-4 text-gradient" data-aos="fade-up" data-aos-delay="100">Get in Touch</h1>
+                                    <p class="mb-5" data-aos="fade-up" data-aos-delay="150">We’re here to answer questions, provide guidance, <br>
+                                    and start your care journey with confidence.</p>
+
+                                    <div class="mb-2" data-aos="fade-up" data-aos-delay="200">
+                                        <h5 class="fw-normal mb-0 lh-base">Phone <span class="fw-bold ms-2"><a href="tel:2817896121" class="link">281-789-6121</a></span></h5>
+                                    </div>
+
+                                    <div class="mb-2" data-aos="fade-up" data-aos-delay="200">
+                                        <h5 class="fw-normal mb-0 lh-base">Email <span class="fw-bold ms-2" style="word-break: break-all;"><a href="mailTo:info@compasscarehealth.com" class="link">info@compasscarehealth.com</a></span></h5>
+                                    </div>
+
+                                    <div class="mb-2" data-aos="fade-up" data-aos-delay="200">
+                                        <h5 class="fw-normal mb-0 lh-base">Office <span class="fw-bold ms-2">3 Sugar Creek Center Boulevard, Suite 100-167, <br/> Sugar Land, TX 77478</span></h5>
+                                    </div>
+
+                                    <div class="mt-5 pt-lg-5" data-aos="fade-up" data-aos-delay="200">
+                                        <h5 class="fw-normal mb-0 lh-base"><a href="" class="link"><i class="fa-brands fa-instagram align-middle me-2 fs-2"></i> <span class="align-middle">@services_health_compass</span></a></h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12 ps-lg-5 align-self-center">
+                                    <div class="form-box" data-aos="zoom-in" data-aos-delay="200">
+                                        <form action="" id="contactForm" class="form form1">
+                                            <div class="mb-3">
+                                                <input type="text" name="name" class="form-control" placeholder="Name"required>
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="email" name="email" class="form-control" placeholder="Email" required>
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="text"name="phone" class="form-control" placeholder="Phone" required>
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="text" name="address" class="form-control" placeholder="Address" required>
+                                            </div>
+                                            <div class="mb-3">
+                                                <textarea name="message" class="form-control h-auto" placeholder="Message" rows="4"></textarea>
+                                            </div>
+                                            <div class="">
+                                                <button class="btn btn1 btn-border mt-3">Submit</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3468.3617375516624!2d-95.60667172500587!3d29.62223523845239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e6ff867654d3%3A0xd3c2ca67c7c08137!2sThree%20Sugar%20Creek%20Center%2C%203%20Sugar%20Creek%20Center%20Blvd%20100%20167%2C%20Sugar%20Land%2C%20TX%2077478%2C%20USA!5e0!3m2!1sen!2sin!4v1759729305681!5m2!1sen!2sin" class="w-100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <div class="padding">
+                <div class="container">
+                    <div class="row gy-4">
+                        <div class="col-6">
+                            <img src="images/logo-white.svg" alt="" class="img-fluid logo1" data-aos="zoom-in" data-aos-delay="100" />
+                        </div>
+                        <div class="col-6 text-end">
+                            <p class="mb-2 fs-6 fs-14"><a href="index.html">home</a></p>
+                            <p class="mb-2 fs-6 fs-14"><a href="about.html">about</a></p>
+                            <p class="mb-2 fs-6 fs-14"><a href="contact.html">contact</a></p>
+                        </div>
+                    </div>
+                    <hr class="hr1 mb-4">
+                    <div class="copy">
+                        <p class="mb-0 fs-12">©2025 Compass Health Services inc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/SmoothScroll.js"></script>
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 2000,
+            once: true
+        })
+    </script>
+
+    <script>
+        const swiper = new Swiper('.swiperBanner', {
+            loop: false,
+            slidesPerView: 1,
+            spaceBetween: 10,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false
+            },
+            // effect: 'fade',
+            fadeEffect: {
+                crossFade: true
+            },
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                // type: "fraction",
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
+
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#contactForm").submit(function (e) {
+                e.preventDefault();
+                $.ajax({
+                    url: "https://formsubmit.co/ajax/3444822@gmail.com",
+                    method: "POST",
+                    data: $(this).serialize(),
+                    dataType: "json",
+                    success: function () {
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Message Sent!',
+                            text: 'Thank you! Your message has been sent successfully.',
+                            confirmButtonColor: '#3085d6',
+                            confirmButtonText: 'OK'
+                        });
+                        $("#contactForm")[0].reset();
+                    },
+                    error: function () {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Oops...',
+                            text: 'Something went wrong! Please try again later.',
+                            confirmButtonColor: '#d33'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
