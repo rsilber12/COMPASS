@@ -4,40 +4,31 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Compass Health Services</title>
-    <link rel="icon" href="images/favicon.svg" type="image/png"/>
+    <meta name="description" content="Contact Compass Health Services about skilled home health, non-skilled home care, personal attendant services, and Pediatric Private Duty Nursing in Greater Houston." />
+    <title>Contact Compass Health Services</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
 
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/responisve.css" rel="stylesheet" />
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
-     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
-<body>
+<body class="home-page modern-inner-page contact-page">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="overflow-hidden">
         <div class="header-top">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light" aria-label="Primary navigation">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="" class="img-fluid logo1" /></a>
-
-                    <!-- <div class="order-lg-1 ms-lg-3">
-                        <a href="#" class="btn btn1 text-nowrap">123-456-7890</a>
-                    </div> -->
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="Compass Health Services" class="img-fluid logo1" /></a>
                     <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -45,172 +36,210 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="contact.html">Contact</a>
-                            </li>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
 
-        <div class="padding">
-            <div class="container">
-                <div class="banner-box">
-                    <div class="contactnow-box" data-aos="fade-up" data-aos-delay="100">
-                        <div class="p-lg-5">
-                            <div class="row g-5">
-                                <div class="col-lg-6 col-12 pe-lg-5">
-                                    <h1 class="display-3 lh-1 mb-4 text-gradient" data-aos="fade-up" data-aos-delay="100">Get in Touch</h1>
-                                    <p class="mb-5" data-aos="fade-up" data-aos-delay="150">We’re here to answer questions, provide guidance, <br>
-                                    and start your care journey with confidence.</p>
-
-                                    <div class="mb-2" data-aos="fade-up" data-aos-delay="200">
-                                        <h5 class="fw-normal mb-0 lh-base">Phone <span class="fw-bold ms-2"><a href="tel:2817896121" class="link">281-789-6121</a></span></h5>
-                                    </div>
-
-                                    <div class="mb-2" data-aos="fade-up" data-aos-delay="200">
-                                        <h5 class="fw-normal mb-0 lh-base">Email <span class="fw-bold ms-2" style="word-break: break-all;"><a href="mailTo:info@compasscarehealth.com" class="link">info@compasscarehealth.com</a></span></h5>
-                                    </div>
-
-                                    <div class="mb-2" data-aos="fade-up" data-aos-delay="200">
-                                        <h5 class="fw-normal mb-0 lh-base">Office <span class="fw-bold ms-2">3 Sugar Creek Center Boulevard, Suite 100-167, <br/> Sugar Land, TX 77478</span></h5>
-                                    </div>
-
-                                    <div class="mt-5 pt-lg-5" data-aos="fade-up" data-aos-delay="200">
-                                        <h5 class="fw-normal mb-0 lh-base"><a href="https://www.instagram.com/compass_health_services" class="link"><i class="fa-brands fa-instagram align-middle me-2 fs-2"></i> <span class="align-middle">@services_health_compass</span></a></h5>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-12 ps-lg-5 align-self-center">
-                                    <div class="form-box" data-aos="zoom-in" data-aos-delay="200">
-                                        <form action="" id="contactForm" class="form form1">
-                                            <div class="mb-3">
-                                                <input type="text" name="name" class="form-control" placeholder="Name"required>
-                                            </div>
-                                            <div class="mb-3">
-                                                <input type="email" name="email" class="form-control" placeholder="Email" required>
-                                            </div>
-                                            <div class="mb-3">
-                                                <input type="text"name="phone" class="form-control" placeholder="Phone" required>
-                                            </div>
-                                            <div class="mb-3">
-                                                <input type="text" name="address" class="form-control" placeholder="Address" required>
-                                            </div>
-                                            <div class="mb-3">
-                                                <textarea name="message" class="form-control h-auto" placeholder="Message" rows="4"></textarea>
-                                            </div>
-                                            <div class="">
-                                                <button class="btn btn1 btn-border mt-3">Submit</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div> 
+        <main id="main-content">
+            <section class="contact-hero" aria-labelledby="contact-title">
+                <div class="container">
+                    <div class="contact-hero-shell" data-aos="fade-up">
+                        <div>
+                            <p class="eyebrow light">We’re here to help</p>
+                            <h1 id="contact-title">Let’s talk about care.</h1>
+                            <p>Tell us what support you are looking for. Our team will help you understand services, coverage, and the next step for your family.</p>
                         </div>
-                    </div>
-                    <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3468.3617375516624!2d-95.60667172500587!3d29.62223523845239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e6ff867654d3%3A0xd3c2ca67c7c08137!2sThree%20Sugar%20Creek%20Center%2C%203%20Sugar%20Creek%20Center%20Blvd%20100%20167%2C%20Sugar%20Land%2C%20TX%2077478%2C%20USA!5e0!3m2!1sen!2sin!4v1759729305681!5m2!1sen!2sin" class="w-100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="contact-hero-mark" aria-hidden="true"><i class="fa-solid fa-compass"></i></div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
 
-        <div class="footer-section">
+            <section class="contact-layout-section" aria-labelledby="contact-form-title">
+                <div class="container">
+                    <div class="contact-layout">
+                        <div class="contact-info" data-aos="fade-right">
+                            <p class="eyebrow">Reach our care team</p>
+                            <h2>Real people. Clear answers.</h2>
+                            <p class="contact-intro">Call, email, or send a message. We welcome questions from families, hospitals, case managers, and discharge planners.</p>
+
+                            <div class="contact-methods">
+                                <a href="tel:2817896121" class="contact-method-card">
+                                    <span class="contact-method-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></span>
+                                    <span><small>Call us</small><strong>281-789-6121</strong></span>
+                                    <i class="fa-solid fa-arrow-right contact-method-arrow" aria-hidden="true"></i>
+                                </a>
+                                <a href="mailto:info@compasscarehealth.com" class="contact-method-card">
+                                    <span class="contact-method-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></span>
+                                    <span><small>Email us</small><strong>info@compasscarehealth.com</strong></span>
+                                    <i class="fa-solid fa-arrow-right contact-method-arrow" aria-hidden="true"></i>
+                                </a>
+                                <div class="contact-method-card">
+                                    <span class="contact-method-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span>
+                                    <span><small>Visit our office</small><strong>3 Sugar Creek Center Boulevard<br>Suite 100-167, Sugar Land, TX 77478</strong></span>
+                                </div>
+                            </div>
+
+                            <div class="contact-coverage-note">
+                                <i class="fa-solid fa-shield-heart" aria-hidden="true"></i>
+                                <div><strong>Questions about coverage?</strong><p>We work with Medicaid, Texas Children’s Health Plan, and other MCOs and insurance plans.</p></div>
+                            </div>
+                        </div>
+
+                        <div class="modern-form-card" data-aos="fade-left">
+                            <div class="form-card-heading">
+                                <p class="eyebrow">Start a conversation</p>
+                                <h2 id="contact-form-title">How can we help?</h2>
+                                <p>Complete the form and a member of the Compass care team will follow up.</p>
+                            </div>
+                            <form action="https://api.web3forms.com/submit" method="POST" id="contactForm" class="modern-contact-form">
+                                <input type="hidden" name="access_key" value="7efc2de3-e4b2-40f9-bed2-565f51553483" />
+                                <input type="hidden" name="subject" value="New Compass Health Services website inquiry" />
+                                <input type="hidden" name="from_name" value="Compass Health Services Website" />
+                                <input type="checkbox" name="botcheck" class="form-botcheck" tabindex="-1" autocomplete="off" />
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="contactName" class="form-label">Name</label>
+                                        <input id="contactName" type="text" name="name" class="form-control" autocomplete="name" required />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="contactPhone" class="form-label">Phone</label>
+                                        <input id="contactPhone" type="tel" name="phone" class="form-control" autocomplete="tel" required />
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="contactEmail" class="form-label">Email</label>
+                                        <input id="contactEmail" type="email" name="email" class="form-control" autocomplete="email" required />
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="serviceInterest" class="form-label">Service needed</label>
+                                        <select id="serviceInterest" name="service_interest" class="form-select" required>
+                                            <option value="" selected disabled>Select a service</option>
+                                            <option value="Pediatric Private Duty Nursing">Pediatric Private Duty Nursing</option>
+                                            <option value="Skilled Home Health">Skilled Home Health</option>
+                                            <option value="Non-Skilled Home Care">Non-Skilled Home Care</option>
+                                            <option value="Personal Attendant Services">Personal Attendant Services</option>
+                                            <option value="Referral or Care Coordination">Referral or Care Coordination</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="contactMessage" class="form-label">General message <span>(optional)</span></label>
+                                        <textarea id="contactMessage" name="message" class="form-control" rows="4" maxlength="500"></textarea>
+                                    </div>
+                                </div>
+                                <p class="form-privacy-note"><i class="fa-solid fa-shield-heart" aria-hidden="true"></i> Please do not include diagnoses, medications, Medicaid numbers, or other private medical information.</p>
+                                <button type="submit" class="btn btn1 contact-submit" id="contactSubmit">Send message <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="location-section" aria-labelledby="location-title">
+                <div class="container">
+                    <div class="location-shell">
+                        <div class="location-copy" data-aos="fade-right">
+                            <p class="eyebrow">Local care, close to home</p>
+                            <h2 id="location-title">Based in Sugar Land. Serving Greater Houston.</h2>
+                            <p>Our team serves Houston, Sugar Land, Katy, and surrounding communities.</p>
+                            <div class="city-tags"><span>Houston</span><span>Sugar Land</span><span>Katy</span><span>Nearby communities</span></div>
+                            <p class="location-address"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>3 Sugar Creek Center Boulevard<br>Suite 100-167, Sugar Land, TX 77478</span></p>
+                        </div>
+                        <div class="modern-map" data-aos="fade-left">
+                            <iframe title="Compass Health Services office location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3468.3617375516624!2d-95.60667172500587!3d29.62223523845239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e6ff867654d3%3A0xd3c2ca67c7c08137!2sThree%20Sugar%20Creek%20Center%2C%203%20Sugar%20Creek%20Center%20Blvd%20100%20167%2C%20Sugar%20Land%2C%20TX%2077478%2C%20USA!5e0!3m2!1sen!2sin!4v1759729305681!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact-support-band" aria-label="Care coordination partners">
+                <div class="container">
+                    <div class="contact-support-shell" data-aos="fade-up">
+                        <p>We welcome referrals and coordinate closely with</p>
+                        <div><span><i class="fa-solid fa-hospital" aria-hidden="true"></i> Hospitals</span><span><i class="fa-solid fa-clipboard-user" aria-hidden="true"></i> Case managers</span><span><i class="fa-solid fa-route" aria-hidden="true"></i> Discharge planners</span><span><i class="fa-solid fa-people-roof" aria-hidden="true"></i> Families</span></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer-section">
             <div class="padding">
                 <div class="container">
-                    <div class="row gy-4">
-                        <div class="col-6">
-                            <img src="images/logo-white.svg" alt="" class="img-fluid logo1" data-aos="zoom-in" data-aos-delay="100" />
+                    <div class="row gy-4 align-items-start">
+                        <div class="col-lg-5 col-md-6">
+                            <img src="images/logo-white.svg" alt="Compass Health Services" class="img-fluid logo1 mb-4" />
+                            <p class="footer-summary">Full-service skilled and non-skilled home care for adults and children, with a special focus on Pediatric Private Duty Nursing.</p>
                         </div>
-                        <div class="col-6 text-end">
-                            <p class="mb-2 fs-6 fs-14"><a href="index.html">home</a></p>
-                            <p class="mb-2 fs-6 fs-14"><a href="about.html">about</a></p>
-                            <p class="mb-2 fs-6 fs-14"><a href="contact.html">contact</a></p>
+                        <div class="col-lg-3 col-md-3 col-6 footer-links">
+                            <p class="footer-title">Explore</p>
+                            <p><a href="index.html#services">Services</a></p>
+                            <p><a href="index.html#pediatric-pdn">Pediatric PDN</a></p>
+                            <p><a href="about.html">About</a></p>
+                            <p><a href="contact.html">Contact</a></p>
+                        </div>
+                        <div class="col-lg-4 col-md-3 col-6 footer-contact">
+                            <p class="footer-title">Connect</p>
+                            <p><a href="tel:2817896121">281-789-6121</a></p>
+                            <p><a href="mailto:info@compasscarehealth.com">info@compasscarehealth.com</a></p>
+                            <p>Sugar Land, Texas<br>Serving Greater Houston</p>
                         </div>
                     </div>
-                    <hr class="hr1 mb-4">
-                    <div class="copy">
-                        <p class="mb-0 fs-12">©2025 Compass Health Services inc.</p>
+                    <hr class="hr1 my-4" />
+                    <div class="copy d-flex flex-wrap justify-content-between gap-2">
+                        <p class="mb-0 fs-12">©2026 Compass Health Services Inc.</p>
+                        <p class="mb-0 fs-12">Compassionate care. Clear direction.</p>
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     </div>
 
     <script src="js/SmoothScroll.js"></script>
     <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
-
+    <script>AOS.init({ duration: 850, once: true, offset: 40 });</script>
     <script>
-        AOS.init({
-            duration: 2000,
-            once: true
-        })
-    </script>
+        const contactForm = document.getElementById('contactForm');
+        const contactSubmit = document.getElementById('contactSubmit');
+        const showFormNotice = function (options) {
+            if (window.Swal) return window.Swal.fire(options);
+            window.alert(options.title + '\n\n' + options.text);
+            return Promise.resolve();
+        };
 
-    <script>
-        const swiper = new Swiper('.swiperBanner', {
-            loop: false,
-            slidesPerView: 1,
-            spaceBetween: 10,
-            autoplay: {
-                delay: 4000,
-                disableOnInteraction: false
-            },
-            // effect: 'fade',
-            fadeEffect: {
-                crossFade: true
-            },
+        contactForm.addEventListener('submit', async function (event) {
+            event.preventDefault();
+            contactSubmit.disabled = true;
+            contactSubmit.innerHTML = 'Sending…';
 
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-                // type: "fraction",
-            },
+            try {
+                const response = await fetch(contactForm.action, { method: 'POST', body: new FormData(contactForm) });
+                const result = await response.json();
+                if (!response.ok || !result.success) throw new Error(result.message || 'Submission failed');
 
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            }
-        });
-
-    </script>
-    <script>
-        $(document).ready(function () {
-            $("#contactForm").submit(function (e) {
-                e.preventDefault();
-                $.ajax({
-                    url: "https://formsubmit.co/ajax/info@compasscarehealth.com",
-                    method: "POST",
-                    data: $(this).serialize(),
-                    dataType: "json",
-                    success: function () {
-                        Swal.fire({
-                            icon: 'success',
-                            title: 'Message Sent!',
-                            text: 'Thank you! Your message has been sent successfully.',
-                            confirmButtonColor: '#3085d6',
-                            confirmButtonText: 'OK'
-                        });
-                        $("#contactForm")[0].reset();
-                    },
-                    error: function () {
-                        Swal.fire({
-                            icon: 'error',
-                            title: 'Oops...',
-                            text: 'Something went wrong! Please try again later.',
-                            confirmButtonColor: '#d33'
-                        });
-                    }
+                await showFormNotice({
+                    icon: 'success',
+                    title: 'Message Sent!',
+                    text: 'Thank you. A member of the Compass care team will follow up with you.',
+                    confirmButtonColor: '#8563c2',
+                    confirmButtonText: 'OK'
                 });
-            });
+                contactForm.reset();
+            } catch (error) {
+                showFormNotice({
+                    icon: 'error',
+                    title: 'Message not sent',
+                    text: 'Please try again or call us at 281-789-6121.',
+                    confirmButtonColor: '#8563c2',
+                    confirmButtonText: 'OK'
+                });
+            } finally {
+                contactSubmit.disabled = false;
+                contactSubmit.innerHTML = 'Send message <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>';
+            }
         });
     </script>
 </body>

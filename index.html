@@ -4,40 +4,31 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Compass Health Services</title>
-    <link rel="icon" href="images/favicon.svg" type="image/png"/>
+    <meta name="description" content="Compass Health Services provides skilled home health, non-skilled home care, personal attendant services, and pediatric private duty nursing across Greater Houston." />
+    <title>Home Health &amp; Pediatric PDN | Compass Health Services</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
 
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/responisve.css" rel="stylesheet" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css" />
 </head>
 
-<body>
+<body class="home-page">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="overflow-hidden">
         <div class="header-top">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light" aria-label="Primary navigation">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="" class="img-fluid logo1" /></a>
-
-                    <!-- <div class="order-lg-1 ms-lg-3">
-                        <a href="#" class="btn btn1 text-nowrap">123-456-7890</a>
-                    </div> -->
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="Compass Health Services" class="img-fluid logo1" /></a>
                     <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -45,199 +36,243 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
 
-        <div class="banner padding py-0">
-            <div class="container">
-                <div class="banner-box">
-                    <img src="images/katatomicuk_an_elderly_man_sitting_comfortably_in_an_armchair_s_16285010-c2d9-47ef-915e-d4964dcbc8bd.jpeg" class="img-fluid img1 w-100" alt="">
-                    <div class="txt text-center">
-                        <h1 class="mb-0 text-white display-4" data-aos="fade-up" data-aos-delay="100">Guiding you with care, <br/> compassion, and confidence.</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="padding pt-5">
-            <div class="container">
-                <div class="contactnow-box" data-aos="fade-up" data-aos-delay="100">
-                    <div class="row align-items-center gy-4">
-                        <div class="col-md-8 text-center text-md-start">
-                            <p class="mb-0">Peace of mind begins here. At Compass Health Services, we provide personalized,
-                            compassionate care to help individuals and families navigate health and aging with
-                            dignity. Whether you need a few hours of support each week or round-the-clock care, our experienced team is here for you.</p>
-                        </div>
-                        <div class="col-md-4 text-center text-md-end">
-                            <a href="contact.html" class="btn btn1">Contact Us Today!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="padding position-relative journey-section pt-0">
-            <img src="images/logo-icon.svg" class="img-fluid img1" alt="">
-            <div class="container">
-                <div class="row g-3">
-                    <div class="col-lg-6 col-12">
-                        <h1 class="display-5 lh-1 mb-5" data-aos="fade-up" data-aos-delay="100">Every family’s care
-                        journey is unique. <br> <span class="text-gradient">That’s why we create
-                        care plans tailored to
-                        your needs.</span></h1>
-
-                        <h4 class="text-gradient fw-600" data-aos="fade-up" data-aos-delay="100">Care Management</h4>
-                        <ul class="list2 px-3" data-aos="fade-up" data-aos-delay="200">
-                            <li><h5 class="fs-18">Long-term care planning</h5></li>
-                            <li><h5 class="fs-18">Assistance with community resources</h5></li>
-                            <li><h5 class="fs-18">Support navigating aging health challenges</h5></li>
-                        </ul>
-                        
-                        <h4 class="text-gradient fw-600" data-aos="fade-up" data-aos-delay="100">Caregiving Services</h4>
-                        <ul class="list2 px-3" data-aos="fade-up" data-aos-delay="200">
-                            <li><h5 class="fs-18">Companionship and emotional support</h5></li>
-                            <li><h5 class="fs-18">Light housekeeping, laundry, errands</h5></li>
-                            <li><h5 class="fs-18">Bathing, dressing, and toileting</h5></li>
-                            <li><h5 class="fs-18">Meal preparation and feeding assistance</h5></li>
-                            <li><h5 class="fs-18">Medication reminders and pet care</h5></li>
-                            <li><h5 class="fs-18">Transportation to appointments</h5></li>
-                        </ul>
-                        
-                        <h4 class="text-gradient fw-600" data-aos="fade-up" data-aos-delay="100">Nursing Services</h4>
-                        <ul class="list2 px-3" data-aos="fade-up" data-aos-delay="200">
-                            <li><h5 class="fs-18">Medication management and administration</h5></li>
-                            <li><h5 class="fs-18">Wound care and g-tube feedings</h5></li>
-                            <li><h5 class="fs-18">Private duty nursing in the comfort of home</h5></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="padding pt-0">
-            <div class="container">
-                <div class="why-box">
-                    <div class="img overflow-hidden" style="background-image: url('images/u9131457889_inkwash_painting_the_interior_of_a_hospital_or_nurs_c7d5842e-8102-4c17-b75f-faa4a9204a58.png');background-size: cover;">
-                        <div class="overlay d-flex flex-column justify-content-end">
-                            <h1 class="mb-0 text-white display-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">Why Families Choose <br> Compass Health Services</h1>
-                        </div>
-                    </div>
-                    <div class="txt-box">
-                        <div class="row g-4">
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="txt" data-aos="fade-left" data-aos-delay="100">
-                                    <p class="mb-0 fs-18">Personalized care plans built around your needs</p>
-                                </div>
+        <main id="main-content">
+            <section class="home-hero" aria-labelledby="hero-title">
+                <div class="container">
+                    <div class="hero-shell">
+                        <div class="hero-copy" data-aos="fade-right" data-aos-delay="50">
+                            <p class="eyebrow">Full-service home care for adults &amp; children</p>
+                            <h1 id="hero-title">Expert care at home.<br><span>More confidence for every family.</span></h1>
+                            <p class="hero-lead">Skilled home health, non-skilled home care, personal attendant services, and specialized Pediatric Private Duty Nursing—delivered with compassion across Greater Houston.</p>
+                            <div class="hero-actions">
+                                <a href="contact.html" class="btn btn1">Talk with our care team</a>
+                                <a href="#services" class="text-link">Explore services <i class="fa-solid fa-arrow-down" aria-hidden="true"></i></a>
                             </div>
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="txt" data-aos="fade-left" data-aos-delay="150">
-                                    <p class="mb-0 fs-18">Compassionate, experienced professionals</p>
-                                </div>
+                            <div class="hero-trust" aria-label="Insurance plans and care networks">
+                                <span>Medicaid</span>
+                                <span>Texas Children’s Health Plan</span>
+                                <span>Other MCOs &amp; insurance plans</span>
                             </div>
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="txt" data-aos="fade-left" data-aos-delay="200">
-                                    <p class="mb-0 fs-18">Direct communication with families and care teams</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="txt" data-aos="fade-left" data-aos-delay="250">
-                                    <p class="mb-0 fs-18">Flexible scheduling: 4-24 hours a day, 1-7 days a week</p>
+                        </div>
+                        <div class="hero-visual" data-aos="fade-left" data-aos-delay="100">
+                            <img src="images/pediatric-pdn.jpg" alt="Female nurse sitting beside a smiling child who uses a wheelchair during an in-home visit" />
+                            <div class="pdn-float-card">
+                                <span class="float-icon"><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i></span>
+                                <div>
+                                    <small>Specialized focus</small>
+                                    <strong>Pediatric Private Duty Nursing</strong>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
 
-        <div class="padding pt-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 col-md-9 col-12 mx-auto text-center">
-                        <h1 class="display-5 lh-1 mb-0" data-aos="fade-up" data-aos-delay="100">Every family’s care
-                        journey is unique. <br> <span class="text-gradient">That’s why we create
-                        care plans tailored to
-                        your needs.</span></h1>
-                        <a href="contact.html" class="btn btn1 mt-5" data-aos="fade-up" data-aos-delay="200">Contact Us Today!</a>
+            <section class="quick-facts" aria-label="Compass Health Services overview">
+                <div class="container">
+                    <div class="quick-facts-grid">
+                        <div><strong>Adults + Pediatrics</strong><span>Family-centered care at every age</span></div>
+                        <div><strong>Skilled + Non-Skilled</strong><span>One agency, a complete continuum</span></div>
+                        <div><strong>Greater Houston</strong><span>Houston, Sugar Land, Katy &amp; nearby communities</span></div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
 
-        <div class="footer-section">
+            <section class="services-section" id="services" aria-labelledby="services-title">
+                <div class="container">
+                    <div class="section-heading text-center" data-aos="fade-up">
+                        <p class="eyebrow">Care that fits real life</p>
+                        <h2 id="services-title">A full range of support, under one roof</h2>
+                        <p>We build personalized plans for adults and pediatric clients, from clinical nursing needs to everyday assistance at home.</p>
+                    </div>
+                    <div class="row g-4 service-card-row">
+                        <div class="col-lg-4">
+                            <article class="service-card" data-aos="fade-up" data-aos-delay="50">
+                                <div class="service-icon"><i class="fa-solid fa-stethoscope" aria-hidden="true"></i></div>
+                                <p class="service-number">01</p>
+                                <h3>Skilled Home Health</h3>
+                                <p>Licensed nursing services for adults and children, delivered in the comfort and familiarity of home.</p>
+                                <ul>
+                                    <li>Skilled nursing visits</li>
+                                    <li>Medication and treatment support</li>
+                                    <li>Private duty nursing</li>
+                                </ul>
+                            </article>
+                        </div>
+                        <div class="col-lg-4">
+                            <article class="service-card featured" data-aos="fade-up" data-aos-delay="100">
+                                <div class="service-icon"><i class="fa-solid fa-hands-holding-child" aria-hidden="true"></i></div>
+                                <p class="service-number">02</p>
+                                <h3>Non-Skilled Home Care</h3>
+                                <p>Dependable, compassionate help with day-to-day routines so clients can feel safe and supported at home.</p>
+                                <ul>
+                                    <li>Companionship and supervision</li>
+                                    <li>Meal preparation and light housekeeping</li>
+                                    <li>Errands and routine support</li>
+                                </ul>
+                            </article>
+                        </div>
+                        <div class="col-lg-4">
+                            <article class="service-card" data-aos="fade-up" data-aos-delay="150">
+                                <div class="service-icon"><i class="fa-solid fa-hand-holding-heart" aria-hidden="true"></i></div>
+                                <p class="service-number">03</p>
+                                <h3>Personal Attendant Services</h3>
+                                <p>Respectful hands-on assistance that supports comfort, dignity, independence, and daily wellbeing.</p>
+                                <ul>
+                                    <li>Bathing, dressing, and grooming</li>
+                                    <li>Mobility and transfer assistance</li>
+                                    <li>Personal care for adults and children</li>
+                                </ul>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pdn-section" id="pediatric-pdn" aria-labelledby="pdn-title">
+                <div class="container">
+                    <div class="pdn-shell">
+                        <div class="pdn-image" data-aos="fade-right">
+                            <img src="images/pediatric-pdn.jpg" alt="Pediatric nurse sharing a warm moment with a child in a wheelchair at home" loading="lazy" />
+                            <span class="image-caption">Care that meets children where they feel safest: home.</span>
+                        </div>
+                        <div class="pdn-copy" data-aos="fade-left">
+                            <p class="eyebrow light">A key area of focus</p>
+                            <h2 id="pdn-title">Pediatric Private Duty Nursing, centered on your child</h2>
+                            <p class="pdn-lead">Our Pediatric PDN team provides attentive, one-on-one nursing support for children with ongoing medical needs—while helping families maintain the routines, connection, and confidence of home life.</p>
+                            <div class="pdn-points">
+                                <div><i class="fa-solid fa-check" aria-hidden="true"></i><span>Individualized care based on your child’s plan and needs</span></div>
+                                <div><i class="fa-solid fa-check" aria-hidden="true"></i><span>Consistent communication with parents, physicians, and care teams</span></div>
+                                <div><i class="fa-solid fa-check" aria-hidden="true"></i><span>Support for daily routines, appointments, and family life</span></div>
+                            </div>
+                            <a href="contact.html" class="btn btn-light pdn-button">Ask about Pediatric PDN <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="coordination-section" aria-labelledby="coordination-title">
+                <div class="container">
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-6" data-aos="fade-right">
+                            <div class="coordination-copy">
+                                <p class="eyebrow">Connected care from discharge to home</p>
+                                <h2 id="coordination-title">We coordinate with the people already supporting you</h2>
+                                <p>Compass works closely with hospitals, case managers, discharge planners, physicians, and families to support continuity of care and a smoother transition home.</p>
+                                <div class="partner-list" aria-label="Care coordination partners">
+                                    <span><i class="fa-solid fa-hospital" aria-hidden="true"></i> Hospitals</span>
+                                    <span><i class="fa-solid fa-clipboard-user" aria-hidden="true"></i> Case managers</span>
+                                    <span><i class="fa-solid fa-route" aria-hidden="true"></i> Discharge planners</span>
+                                    <span><i class="fa-solid fa-people-roof" aria-hidden="true"></i> Families</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-left">
+                            <div class="coordination-image">
+                                <img src="images/adult-home-care.jpg" alt="Home care nurse supporting an older adult in a comfortable home setting" loading="lazy" />
+                                <div class="continuity-card"><strong>One shared goal</strong><span>Safe, seamless, dependable care at home.</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="coverage-section" id="coverage" aria-labelledby="coverage-title">
+                <div class="container">
+                    <div class="coverage-shell" data-aos="fade-up">
+                        <div class="coverage-copy">
+                            <p class="eyebrow">Coverage &amp; access</p>
+                            <h2 id="coverage-title">Helping families navigate care coverage</h2>
+                            <p>We work with Medicaid, Texas Children’s Health Plan, and other MCOs and insurance plans. Our team can help you discuss coverage and next steps.</p>
+                            <a href="contact.html" class="text-link">Check your plan with our team <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="plan-list" aria-label="Accepted insurance and plan types">
+                            <div><span class="plan-mark">M</span><strong>Medicaid</strong></div>
+                            <div><span class="plan-mark">T</span><strong>Texas Children’s<br>Health Plan</strong></div>
+                            <div><span class="plan-mark">+</span><strong>Other MCOs &amp;<br>insurance plans</strong></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="area-section" aria-labelledby="area-title">
+                <div class="container">
+                    <div class="area-shell">
+                        <div class="area-image" data-aos="fade-right">
+                            <img src="images/senior-nursing-care.jpg" alt="Nurse connecting warmly with an older adult during a home visit" loading="lazy" />
+                        </div>
+                        <div class="area-copy" data-aos="fade-left">
+                            <p class="eyebrow">Local care, close to home</p>
+                            <h2 id="area-title">Based in Sugar Land. Serving Greater Houston.</h2>
+                            <p>Our care team serves families throughout the metropolitan area, including Houston, Sugar Land, Katy, and surrounding communities.</p>
+                            <div class="city-tags"><span>Houston</span><span>Sugar Land</span><span>Katy</span><span>Surrounding communities</span></div>
+                            <a href="contact.html" class="btn btn1">Let’s talk about care</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="final-cta" aria-labelledby="cta-title">
+                <div class="container">
+                    <div class="final-cta-shell" data-aos="fade-up">
+                        <p class="eyebrow light">Ready when your family is</p>
+                        <h2 id="cta-title">Find the right care at home.</h2>
+                        <p>Tell us what support you need. Our team will help you understand the next step.</p>
+                        <div class="cta-actions">
+                            <a href="contact.html" class="btn btn-light">Contact Compass</a>
+                            <a href="tel:2817896121" class="cta-phone"><i class="fa-solid fa-phone" aria-hidden="true"></i> 281-789-6121</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer-section">
             <div class="padding">
                 <div class="container">
-                    <div class="row gy-4">
-                        <div class="col-6">
-                            <img src="images/logo-white.svg" alt="" class="img-fluid logo1" data-aos="zoom-in" data-aos-delay="100" />
+                    <div class="row gy-4 align-items-start">
+                        <div class="col-lg-5 col-md-6">
+                            <img src="images/logo-white.svg" alt="Compass Health Services" class="img-fluid logo1 mb-4" />
+                            <p class="footer-summary">Full-service skilled and non-skilled home care for adults and children, with a special focus on Pediatric Private Duty Nursing.</p>
                         </div>
-                        <div class="col-6 text-end">
-                            <p class="mb-2 fs-6 fs-14"><a href="index.html">home</a></p>
-                            <p class="mb-2 fs-6 fs-14"><a href="about.html">about</a></p>
-                            <p class="mb-2 fs-6 fs-14"><a href="contact.html">contact</a></p>
+                        <div class="col-lg-3 col-md-3 col-6 footer-links">
+                            <p class="footer-title">Explore</p>
+                            <p><a href="#services">Services</a></p>
+                            <p><a href="#pediatric-pdn">Pediatric PDN</a></p>
+                            <p><a href="about.html">About</a></p>
+                            <p><a href="contact.html">Contact</a></p>
+                        </div>
+                        <div class="col-lg-4 col-md-3 col-6 footer-contact">
+                            <p class="footer-title">Connect</p>
+                            <p><a href="tel:2817896121">281-789-6121</a></p>
+                            <p><a href="mailto:info@compasscarehealth.com">info@compasscarehealth.com</a></p>
+                            <p>Sugar Land, Texas<br>Serving Greater Houston</p>
                         </div>
                     </div>
-                    <hr class="hr1 mb-4">
-                    <div class="copy">
-                        <p class="mb-0 fs-12">©2025 Compass Health Services inc.</p>
+                    <hr class="hr1 my-4" />
+                    <div class="copy d-flex flex-wrap justify-content-between gap-2">
+                        <p class="mb-0 fs-12">©2026 Compass Health Services Inc.</p>
+                        <p class="mb-0 fs-12">Compassionate care. Clear direction.</p>
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     </div>
 
     <script src="js/SmoothScroll.js"></script>
     <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
-
     <script>
-        AOS.init({
-            duration: 2000,
-            once: true
-        })
+        AOS.init({ duration: 850, once: true, offset: 40 });
     </script>
-
-    <script>
-        const swiper = new Swiper('.swiperBanner', {
-            loop: false,
-            slidesPerView: 1,
-            spaceBetween: 10,
-            autoplay: {
-                delay: 4000,
-                disableOnInteraction: false
-            },
-            // effect: 'fade',
-            fadeEffect: {
-                crossFade: true
-            },
-
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-                // type: "fraction",
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            }
-        });
-
-    </script>
-
 </body>
 
 </html>

@@ -144,3 +144,692 @@
         padding: 24px;
     }
 }
+
+
+/* Refreshed homepage responsive styles */
+@media (max-width: 1199px) {
+    .home-page .home-header nav.navbar .navbar-nav .nav-link {
+        padding-right: 7px;
+        padding-left: 7px;
+        font-size: .7rem;
+    }
+
+    .hero-copy {
+        padding: 54px 40px;
+    }
+
+    .pdn-copy,
+    .area-copy {
+        padding: 48px;
+    }
+
+    .coverage-shell {
+        gap: 34px;
+        padding: 44px;
+    }
+
+    .plan-list {
+        grid-template-columns: 1fr;
+    }
+
+    .plan-list > div {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        min-height: auto;
+        padding: 14px;
+    }
+
+    .plan-mark {
+        flex: 0 0 42px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .home-page .home-header .navbar-collapse {
+        padding: 16px;
+    }
+
+    .home-page .home-header .nav-cta {
+        display: inline-block;
+        margin-top: 8px;
+    }
+
+    .hero-shell {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-copy {
+        padding: 58px;
+    }
+
+    .hero-visual {
+        padding-top: 0;
+    }
+
+    .hero-visual > img {
+        min-height: 540px;
+    }
+
+    .pdn-float-card {
+        left: 34px;
+    }
+
+    .quick-facts-grid {
+        padding: 22px;
+    }
+
+    .quick-facts-grid > div {
+        padding: 2px 18px;
+    }
+
+    .pdn-shell,
+    .area-shell {
+        grid-template-columns: 1fr;
+    }
+
+    .pdn-image img {
+        min-height: 520px;
+    }
+
+    .pdn-copy {
+        padding: 58px;
+    }
+
+    .coverage-shell {
+        grid-template-columns: 1fr;
+    }
+
+    .plan-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .plan-list > div {
+        display: block;
+        min-height: 160px;
+        padding: 20px;
+    }
+
+    .plan-mark {
+        margin-bottom: 22px;
+    }
+
+    .area-image img {
+        min-height: 460px;
+        max-height: 520px;
+    }
+}
+
+@media (max-width: 767px) {
+    .service-ribbon {
+        font-size: .72rem;
+        text-align: center;
+    }
+
+    .home-page .home-header {
+        padding: 15px 8px;
+    }
+
+    .home-hero {
+        padding-bottom: 58px;
+    }
+
+    .hero-shell,
+    .pdn-shell,
+    .coverage-shell,
+    .area-shell,
+    .final-cta-shell {
+        border-radius: 22px;
+    }
+
+    .hero-copy {
+        padding: 42px 30px;
+    }
+
+    .hero-copy h1 {
+        font-size: clamp(2.55rem, 12vw, 3.5rem);
+    }
+
+    .hero-lead {
+        font-size: 1rem;
+    }
+
+    .hero-visual {
+        padding: 10px;
+        padding-top: 0;
+    }
+
+    .hero-visual > img {
+        min-height: 430px;
+        border-radius: 17px;
+    }
+
+    .pdn-float-card {
+        right: 25px;
+        bottom: 28px;
+        left: 25px;
+        max-width: none;
+    }
+
+    .quick-facts {
+        margin-top: -28px;
+    }
+
+    .quick-facts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .quick-facts-grid > div,
+    .quick-facts-grid > div:first-child,
+    .quick-facts-grid > div:last-child {
+        padding: 14px 0;
+        border-right: 0;
+        border-bottom: 1px solid var(--compass-line);
+    }
+
+    .quick-facts-grid > div:first-child {
+        padding-top: 0;
+    }
+
+    .quick-facts-grid > div:last-child {
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+
+    .services-section,
+    .coordination-section,
+    .testimonials-section,
+    .area-section {
+        padding: 78px 8px;
+    }
+
+    .pdn-section,
+    .coverage-section {
+        padding-bottom: 78px;
+    }
+
+    .section-heading {
+        margin-bottom: 36px;
+    }
+
+    .section-heading h2,
+    .coordination-copy h2,
+    .coverage-copy h2,
+    .area-copy h2,
+    .pdn-copy h2,
+    .final-cta h2 {
+        font-size: clamp(2.25rem, 10vw, 3rem);
+    }
+
+    .service-card {
+        min-height: auto;
+        padding: 28px;
+    }
+
+    .pdn-image {
+        padding: 10px;
+    }
+
+    .pdn-image img {
+        min-height: 430px;
+        border-radius: 15px;
+    }
+
+    .image-caption {
+        right: 24px;
+        bottom: 24px;
+        left: 24px;
+    }
+
+    .pdn-copy,
+    .area-copy {
+        padding: 40px 30px;
+    }
+
+    .coordination-image {
+        padding: 0 0 24px 24px;
+    }
+
+    .coordination-image img {
+        height: 430px;
+    }
+
+    .coverage-shell {
+        padding: 36px 28px;
+    }
+
+    .plan-list {
+        grid-template-columns: 1fr;
+    }
+
+    .plan-list > div {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        min-height: auto;
+        padding: 14px;
+    }
+
+    .plan-mark {
+        margin-bottom: 0;
+    }
+
+    .testimonial-card {
+        min-height: 320px;
+    }
+
+    .area-image img {
+        min-height: 390px;
+    }
+
+    .final-cta {
+        padding-bottom: 78px;
+    }
+
+    .final-cta-shell {
+        padding: 54px 28px;
+    }
+}
+
+@media (max-width: 575px) {
+    .home-page .home-header .logo1 {
+        width: 160px;
+    }
+
+    .hero-copy {
+        padding: 36px 23px;
+    }
+
+    .hero-actions {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .hero-visual > img {
+        min-height: 360px;
+        object-position: 58% center;
+    }
+
+    .pdn-float-card {
+        right: 18px;
+        bottom: 20px;
+        left: 18px;
+        padding: 13px 15px;
+    }
+
+    .pdn-float-card .float-icon {
+        flex-basis: 38px;
+        width: 38px;
+        height: 38px;
+    }
+
+    .hero-trust span {
+        width: 100%;
+        text-align: center;
+    }
+
+    .eyebrow {
+        font-size: .68rem;
+    }
+
+    .service-card h3 {
+        font-size: 1.65rem;
+    }
+
+    .pdn-image img {
+        min-height: 350px;
+    }
+
+    .pdn-copy,
+    .area-copy {
+        padding: 36px 24px;
+    }
+
+    .partner-list {
+        grid-template-columns: 1fr;
+    }
+
+    .coordination-image {
+        padding: 0 0 18px 18px;
+    }
+
+    .coordination-image img {
+        height: 350px;
+    }
+
+    .continuity-card {
+        right: 8px;
+        max-width: 260px;
+        padding: 14px 17px;
+    }
+
+    .coverage-shell {
+        padding: 32px 23px;
+    }
+
+    .testimonial-card {
+        padding: 27px;
+    }
+
+    .testimonial-card blockquote {
+        font-size: 1.2rem;
+    }
+
+    .area-image img {
+        min-height: 330px;
+    }
+
+    .city-tags span {
+        font-size: .76rem;
+    }
+
+    .final-cta-shell {
+        padding: 46px 22px;
+    }
+
+    .home-page .footer-section .padding {
+        padding: 48px 8px;
+    }
+}
+
+
+/* Modern About and Contact pages */
+@media (max-width: 1199px) {
+    .inner-hero-copy {
+        padding: 54px 42px;
+    }
+
+    .mission-card,
+    .commitment-card,
+    .modern-form-card {
+        padding: 40px;
+    }
+
+    .about-focus-copy,
+    .location-copy {
+        padding: 46px;
+    }
+
+    .focus-service-list {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-layout {
+        gap: 38px;
+    }
+}
+
+@media (max-width: 991px) {
+    .inner-hero-shell,
+    .about-focus-shell,
+    .location-shell {
+        grid-template-columns: 1fr;
+    }
+
+    .inner-hero-copy {
+        padding: 58px;
+    }
+
+    .inner-hero-image {
+        padding-top: 0;
+    }
+
+    .inner-hero-image > img {
+        min-height: 500px;
+    }
+
+    .mission-grid,
+    .contact-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .value-card {
+        min-height: 245px;
+    }
+
+    .about-focus-image img {
+        min-height: 520px;
+    }
+
+    .about-focus-copy {
+        padding: 56px;
+    }
+
+    .focus-service-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .faq-layout {
+        grid-template-columns: 1fr;
+        gap: 36px;
+    }
+
+    .faq-intro {
+        position: static;
+    }
+
+    .contact-hero-mark {
+        right: 45px;
+        width: 135px;
+        height: 135px;
+        font-size: 5rem;
+    }
+
+    .contact-info {
+        padding-top: 0;
+    }
+
+    .modern-map {
+        min-height: 430px;
+    }
+
+    .modern-map iframe {
+        min-height: 406px;
+    }
+}
+
+@media (max-width: 767px) {
+    .inner-hero {
+        padding-bottom: 78px;
+    }
+
+    .inner-hero-shell,
+    .about-focus-shell,
+    .contact-hero-shell,
+    .location-shell {
+        border-radius: 22px;
+    }
+
+    .inner-hero-copy {
+        padding: 42px 30px;
+    }
+
+    .inner-hero-copy h1,
+    .contact-hero-shell h1 {
+        font-size: clamp(2.65rem, 12vw, 3.65rem);
+    }
+
+    .inner-hero-image {
+        padding: 10px;
+        padding-top: 0;
+    }
+
+    .inner-hero-image > img {
+        min-height: 420px;
+        border-radius: 17px;
+    }
+
+    .inner-image-note {
+        left: 26px;
+        bottom: 26px;
+    }
+
+    .mission-section,
+    .about-focus-section,
+    .inner-faq-section,
+    .contact-layout-section,
+    .location-section,
+    .contact-support-band {
+        padding-bottom: 78px;
+    }
+
+    .mission-card,
+    .commitment-card,
+    .modern-form-card {
+        padding: 32px 28px;
+        border-radius: 20px;
+    }
+
+    .mission-card h2,
+    .about-focus-copy h2,
+    .faq-intro h2,
+    .contact-info h2,
+    .form-card-heading h2,
+    .location-copy h2 {
+        font-size: clamp(2.15rem, 10vw, 2.8rem);
+    }
+
+    .values-section {
+        padding: 78px 8px;
+    }
+
+    .about-focus-section {
+        padding-top: 78px;
+    }
+
+    .about-focus-image {
+        padding: 10px;
+    }
+
+    .about-focus-image img {
+        min-height: 420px;
+        border-radius: 15px;
+    }
+
+    .about-focus-copy,
+    .location-copy {
+        padding: 40px 30px;
+    }
+
+    .contact-hero {
+        padding-bottom: 58px;
+    }
+
+    .contact-hero-shell {
+        min-height: 370px;
+        padding: 48px 32px;
+    }
+
+    .contact-hero-mark {
+        right: 24px;
+        opacity: .45;
+    }
+
+    .contact-method-card {
+        grid-template-columns: 43px 1fr auto;
+    }
+
+    .modern-map {
+        min-height: 370px;
+        padding: 9px;
+    }
+
+    .modern-map iframe {
+        min-height: 352px;
+        border-radius: 16px;
+    }
+
+    .contact-support-shell {
+        padding: 30px 24px;
+    }
+}
+
+@media (max-width: 575px) {
+    .inner-hero-copy {
+        padding: 36px 23px;
+    }
+
+    .inner-hero-image > img {
+        min-height: 350px;
+    }
+
+    .inner-image-note {
+        right: 20px;
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .mission-card,
+    .commitment-card,
+    .modern-form-card {
+        padding: 28px 23px;
+    }
+
+    .value-card {
+        min-height: auto;
+        padding: 27px;
+    }
+
+    .about-focus-image img {
+        min-height: 350px;
+    }
+
+    .about-focus-copy,
+    .location-copy {
+        padding: 36px 24px;
+    }
+
+    .focus-service-list {
+        grid-template-columns: 1fr;
+    }
+
+    .faq-cards article {
+        grid-template-columns: 36px 1fr;
+        gap: 11px;
+        padding: 22px 18px;
+    }
+
+    .contact-hero-shell {
+        min-height: 340px;
+        padding: 40px 24px;
+    }
+
+    .contact-hero-shell p:not(.eyebrow) {
+        font-size: 1rem;
+    }
+
+    .contact-hero-mark {
+        right: -25px;
+    }
+
+    .contact-method-card {
+        grid-template-columns: 41px 1fr;
+    }
+
+    .contact-method-arrow {
+        display: none;
+    }
+
+    .contact-method-card strong {
+        font-size: .81rem;
+    }
+
+    .contact-submit {
+        width: 100%;
+    }
+
+    .modern-map,
+    .modern-map iframe {
+        min-height: 320px;
+    }
+
+    .contact-support-shell > div {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .contact-support-shell span {
+        justify-content: center;
+    }
+}
