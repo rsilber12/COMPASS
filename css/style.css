@@ -1224,6 +1224,14 @@ hr.hr1 {
     font-size: .78rem;
 }
 
+.coverage-logo-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+}
+
+.coverage-logo-card:last-child:nth-child(odd) img {
+    max-width: 260px;
+}
+
 .testimonials-section {
     background: #faf7fb;
 }
